@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 1440px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+}
+
+.main_ul{
+    list-style: none;
+    display: flex;
+    margin-right: 80px;
+ }
+
+ .main_li{
+    margin-left: 33px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #4f81c6;
+    cursor: pointer;
+    
+
+ }
+
+ .main_li:hover{
+    transition: 0.3s;
+    color: #1b365f;
+ }
+
+ .main_li:active{
+    transition: 0.3s;
+    color: #edf1f7;
+ }
+
+.hero {
+   width: 100%;
+   height: 450px;
+   margin-top: 45px;
+ }
+ 
+.img {
+   width: 1280px;
+   height: 450px;
+   margin: auto;
+   position: relative;
+ }
+ 
+.hot_coffee {
+   border-radius: 10px;
+ }
+ 
+.hero_text {
+   width: 480px;
+   height: 250px;
+   position: absolute;
+   top: 137px;
+   left: 85px;
+ }
+
+.hero_text .About {
+   font-family: 'Fraunces', serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 72px;
+   line-height: 72px;
+   color: #FEFCF7;
+ }
+ 
+.hero_text .information {
+   font-family: "Barlow", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 28px;
+   color: #FEFCF7;
+   margin-top: 24px;
+ }
+
+ .works{
+   width: 1045px;
+   height: 565px;
+   background-color: #fff;
+   margin: auto;
+   margin-top: 200px;
+   position: relative;
+}
+
+
+.works_ul{
+   display: flex;
+   list-style: none;
+ 
+}
+.works_li_two{
+   margin-left: 95px;
+   
+}
+
+.works_li_three{
+   margin-left: 95px;
+}
+
+.works_one{
+   margin-top: 140px;
+}
+
+.works__text{
+   margin-top: 38px;
+   font-family: 'Fraunces', sans-serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 36px;
+   color: #333D4B;
+
+}
+
+.works_information{
+   margin-top: 42px;
+   font-family: 'Barlow', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #333D4B;
+}
+ 
